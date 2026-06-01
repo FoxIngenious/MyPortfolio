@@ -9,7 +9,7 @@
 
 <body>
     <nav class="navBar" id="mainNav">
-        <img src="..//Image//profilweb.webp" alt=" jacksonCamilleProfil" id="navProfil">
+        <img src="..//icon//github.webp" alt=" jacksonCamilleProfil" id="navProfil">
         <ul id="menu">
             <li>Acceuil</li>
             <li>A propos</li>
