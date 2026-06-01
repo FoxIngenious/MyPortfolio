@@ -16,7 +16,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 <body>
 
     <nav class="navBar" id="mainNav">
-        <a href="/index.php"><img src="/src/icon/github.webp" alt=" jacksonCamilleProfil" id="navProfil"></a>
+        <a href="/index.php"><img src="/src/Image/profilweb.webp" alt=" jacksonCamilleProfil" id="navProfil"></a>
         <ul id="menu">
             <li><a href="/index.php" class="<?= $page_actuelle === 'index.php' ?  'active' : '' ?>">Acceuil</a></li>
             <li><a href="/about.php" class="<?= $page_actuelle === 'about.php' ?  'active' : '' ?>">A propos</a></li>
@@ -31,8 +31,10 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
     }
 
     #mainNav {
-        background-color: #003366;
+        position: fixed;
+        width: 100%;
         display: flex;
+        background-color: #003366;
         align-items: center;
         border-bottom: #d2b48c 5px solid;
         justify-content: space-between;
@@ -40,7 +42,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 
     img#navProfil {
         width: 50px;
-        margin-left: 100px;
+        margin-left: 200px;
         cursor: pointer;
     }
 
@@ -50,7 +52,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
         align-items: center;
         justify-content: space-between;
         gap: 30px;
-        margin-right: 100px;
+        margin-right: 200px;
 
     }
 

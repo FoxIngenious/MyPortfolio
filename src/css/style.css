@@ -1,0 +1,56 @@
+*{
+    animation-delay: 100ms;
+}
+main{
+    background-color: #003366;
+    font-family: "Source sans 3", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Hero{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto 200px;
+    justify-content: space-between;
+    color: #fff;
+    height: 100vh;
+}
+.CtaContenair{
+    display: flex;
+    gap: 50px;
+}
+.bttn{
+    background: #d2b48c;
+    padding: 20px;
+    font-size: 20pt;
+    border: #d2b48c 1px solid;
+    border-radius: 25px;
+    color: #003366;
+}
+.bttn:hover{
+    background: #b68648;
+}
+.heroTitle {
+    color: #fff;
+    font-size: 12vh;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: #d2b48c 3px solid;
+}
+.heroTitle span{
+    color: #d2b48c;
+}
+
+.heroSousTitre, 
+.fonction{
+    font-size: 6vh;
+}
+.heroSousTitre,.heroDescription,.CtaContenair{
+    padding-top: 20px;
+}
+.fonction{
+    font-family:'Courier New', Courier, monospace;
+}
+.heroDescription{
+    font-size: 4vh;
+}
