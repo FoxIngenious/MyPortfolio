@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+#mainNav {
+    background-color: #003366;
+    display: flex;
+    align-items: center;
+    border-bottom: #d2b48c 2px solid;
+}
