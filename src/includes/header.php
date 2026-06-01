@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+// Récupère le nom du fichier actuel (ex: index.php, contact.php)
+$page_actuelle = basename($_SERVER['PHP_SELF']);
+$page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..//css//style.css">
+    <title>JacksonCamille | <?= $page_name === 'index' ? 'Acceuile' : $page_name ?></title>
 </head>
 
 <body>
-    <?php
-    // Récupère le nom du fichier actuel (ex: index.php, contact.php)
-    $page_actuelle = basename($_SERVER['PHP_SELF']);
-    ?>
 
     <nav class="navBar" id="mainNav">
         <a href="/index.php"><img src="/src/icon/github.webp" alt=" jacksonCamilleProfil" id="navProfil"></a>
@@ -62,17 +64,11 @@
         color: inherit;
 
         display: block;
-        /* Crucial : transforme le lien en bloc */
         width: 100%;
-        /* Prend toute la largeur */
         height: 100%;
-        /* Prend toute la hauteur du parent */
         box-sizing: border-box;
-        /* Inclut le padding dans la hauteur totale */
 
-        /* Ajoutez du padding pour l'espacement vertical */
         padding: 20px 15px;
-        /* 20px haut/bas, 15px gauche/droite */
     }
 
     #menu a:hover {
@@ -82,7 +78,7 @@
     .active {
         box-sizing: border-box;
         color: #d2b48c !important;
-        background-image: linear-gradient(to top, #d2b48c85, transparent);
+        background-image: linear-gradient(to top, #d2b48c60, transparent);
 
     }
 </style>
