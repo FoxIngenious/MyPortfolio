@@ -1,5 +1,5 @@
 *{
-    animation-delay: 100ms;
+    animation-delay: 5ms;
 }
 main{
     background-color: #003366;
@@ -23,7 +23,7 @@ main{
     background: #d2b48c;
     padding: 20px;
     font-size: 20pt;
-    border: #d2b48c 1px solid;
+    border: none;
     border-radius: 25px;
     color: #003366;
 }
