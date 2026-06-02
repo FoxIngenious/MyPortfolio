@@ -16,7 +16,7 @@
 
     <main #indexMainPage>
 
-
+        <!-- ****************************HERO PAGE STRAT HERE ************************ -->
         <section class="Hero" id="mainPageHero">
 
             <div class="HeroInfos">
@@ -28,13 +28,32 @@
                 </p>
 
                 <div class="CtaContenair">
-                    <input type="button" class="bttn" value="TELECHARGER MON CV">
-                    <input type="button" class="bttn" value="ME CONTACTER">
+                    <!-- Boutton vers pour télecharger mon CV -->
+                    <a href="src/Image/profilweb.webp" class="bttn"">
+                        <span>
+                            <img id=" TelechargerCV" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
+                        </span>
+
+                        <span>
+                            TELECHARGER MON CV
+                        </span>
+                    </a>
+
+                    <!-- Boutton vers le contact -->
+                    <a href="contact.php" class="bttn">
+                        <span>
+                            <img id="envoyericon" class="icon" src="/src/icon/envoyer.png" alt="envoyer_icon">
+                        </span>
+
+                        <span>
+                            ME CONTACTER
+                        </span>
+                    </a>
+
                 </div>
             </div>
-
             <div class="profilContenaire">
-                <img src="src/Image/profilweb.webp" alt="jacksoncamilleprofil">
+                <img src="src/Image/profilweb.webp" alt="jacksoncamilleprofil"> <!--Changer l'image de profil après et ajouter une animation arrière -->
             </div>
         </section>
 

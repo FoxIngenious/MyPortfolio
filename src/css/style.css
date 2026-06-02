@@ -1,9 +1,18 @@
 *{
-    animation-delay: 5ms;
+    transition: 100ms ease;
+
+
 }
 main{
     background-color: #003366;
     font-family: "Source sans 3", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    width: 30px;
+    height: auto;
 }
 
 .Hero{
@@ -20,15 +29,25 @@ main{
     gap: 50px;
 }
 .bttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
     background: #d2b48c;
-    padding: 20px;
+    padding: 10px;
     font-size: 20pt;
     border: none;
     border-radius: 25px;
     color: #003366;
 }
+.bttn #envoyericon, #TelechargerCV{
+    transform: translateY(5px);
+}
 .bttn:hover{
-    background: #fff;
+    background: #c78c40;
+    transform: scale(0.90);
+    color: #fff;
 }
 .heroTitle {
     color: #fff;
@@ -45,7 +64,9 @@ main{
 .fonction{
     font-size: 6vh;
 }
-.heroSousTitre,.heroDescription,.CtaContenair{
+.heroSousTitre,
+.heroDescription,
+.CtaContenair{
     padding-top: 20px;
 }
 .fonction{
