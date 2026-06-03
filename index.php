@@ -29,7 +29,7 @@
 
                 <div class="CtaContenair">
                     <!-- Boutton vers pour télecharger mon CV -->
-                    <a href="src/Image/profil.webp" class="bttn"">
+                    <a href="src/Image/profilweb.webp" class="bttn"">
                         <span>
                             <img id=" TelechargerCV" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
                         </span>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="profilContenaire">
-                <img src="src/Image/profilweb.webp" alt="jacksoncamilleprofil"> <!--Changer l'image de profil après et ajouter une animation arrière -->
+                <img id="profilHero" src="src/Image/profil.webp" alt="jacksoncamilleprofil">
             </div>
         </section>
 

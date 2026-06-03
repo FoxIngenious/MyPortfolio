@@ -24,6 +24,14 @@ a{
     color: #fff;
     height: 100vh;
 }
+.HeroInfos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 8vh;
+}
 .CtaContenair{
     display: flex;
     gap: 50px;
@@ -74,4 +82,34 @@ a{
 }
 .heroDescription{
     font-size: 4vh;
+}
+
+
+.profilContenaire{
+    position: relative;
+    top: 10vh;
+}                           
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-5px); }
+}
+
+@keyframes float-shadow {
+  0%, 100% { transform: scaleX(1);    opacity: 0.25; }
+  50%       { transform: scaleX(0.82); opacity: 0.12; }
+}
+
+#profilHero {
+  animation: float 3s ease-in-out infinite;
+  display: block;
+}
+
+.hero-img-shadow {
+  width: 60%;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: float-shadow 3s ease-in-out infinite;
 }
