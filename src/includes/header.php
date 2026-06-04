@@ -32,6 +32,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 
     #mainNav {
         position: fixed;
+        z-index: 3;
         width: 100%;
         display: flex;
         background-color: #003366;

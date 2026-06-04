@@ -51,10 +51,18 @@
                     </a>
 
                 </div>
+
             </div>
+
             <div class="profilContenaire">
                 <img id="profilHero" src="src/Image/profil.webp" alt="jacksoncamilleprofil">
+                <!-- Cercle de décoration -->
+                <div class="circle Big"></div>
+                <div class="circle second"></div>
+                <div class="circle dotrotate"></div>
+                <div class="circle fill"></div>
             </div>
+
         </section>
 
 
