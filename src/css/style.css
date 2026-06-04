@@ -33,34 +33,9 @@ a{
     justify-content: center;
     align-items: flex-start;
 }
-.CtaContenair{
-    display: flex;
-    gap: 50px;
-}
-.bttn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    gap: 5px;
-    background: #d2b48c;
-    padding: 10px;
-    font-size: 20pt;
-    border: none;
-    border-radius: 25px;
-    color: #003366;
-}
-.bttn #envoyericon, #TelechargerCV{
-    transform: translateY(5px);
-}
-.bttn:hover{
-    background: #c78c40;
-    transform: scale(0.90);
-    color: #fff;
-}
 .heroTitle {
     color: #fff;
-    font-size: 12vh;
+    font-size: 7rem;
     box-sizing: border-box;
     width: 100%;
     border-bottom: #d2b48c 3px solid;
@@ -71,7 +46,7 @@ a{
 
 .heroSousTitre, 
 .fonction{
-    font-size: 6vh;
+    font-size: 4rem;
 }
 .heroSousTitre,
 .heroDescription,
@@ -83,6 +58,32 @@ a{
 }
 .heroDescription{
     font-size: 4vh;
+}
+.CtaContenair{
+    display: flex;
+    gap: 50px;
+}
+.bttn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+    background: #d2b48c;
+    padding: 15px 10px;
+    margin-top: 25px;
+    font-size: 20pt;
+    border: none;
+    border-radius: 25px;
+    color: #003366;
+    animation: float 2s ease-in-out infinite;
+}
+.bttn #envoyericon, #TelechargerCV{
+    transform: translateY(5px);
+}
+.bttn:hover{
+    background: #c78c40;
+    color: #fff;
 }
 
 
@@ -99,18 +100,14 @@ a{
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50%       { transform: translateY(-5px); }
+  50%       { transform: translateY(-10px); }
 }
 
-@keyframes float-shadow {
-  0%, 100% { transform: scaleX(1);    opacity: 0.25; }
-  50%       { transform: scaleX(0.82); opacity: 0.12; }
-}
+
 
 #profilHero {
     z-index: 2;
-  animation: float 3s ease-in-out infinite;
-  display: block;
+    display: block;
 }
 
 .circle{

@@ -29,7 +29,7 @@
 
                 <div class="CtaContenair">
                     <!-- Boutton vers pour télecharger mon CV -->
-                    <a href="src/Image/profilweb.webp" class="bttn"">
+                    <a href="src/cv.pdf" class="bttn"">
                         <span>
                             <img id=" TelechargerCV" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
                         </span>
