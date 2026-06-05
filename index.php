@@ -71,7 +71,7 @@
                 <h2 class="title">A PROPOS</h2>
                 <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
                 <p class="aboutDescription">Designer et développeur freelance basé à Madagascar. <br>
-                    J’accompagne les marques et les entrepreneurs dans la création de sites <br> et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
+                    J’accompagne les marques et les entrepreneurs dans la création de sites et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
                 <a href="/about.php" class="bttn more">En savoir plus sur moi</a>
             </div>
 
@@ -82,21 +82,26 @@
 
                     <div class="servicesCard">
                         <img src="/src/icon/outils-dedition.png" alt="">
-                        <h4 class="service-title">Design</h4>
-                        <p class="service-description description">Refonte et Modernisation Visuelle, UI / UX Design, Handoff (Passation aux Développeurs)</p>
+                        <h4 class="service-title">DESIGN</h4>
+                        <p class="service-description description"> <span class="check">&#10003 </span> Refonte et Modernisation <br> <span class="check">&#10003 </span> UI / UX Design <br> <span class="check">&#10003 </span> Handoff Développeurs</p>
                         </p>
                     </div>
 
-                    <div class="servicesCard">
+                    <div class="servicesCard dev">
                         <img src="/src/icon/code.png" alt="">
-                        <h4 class="service-title">Dévéloppement Web</h4>
-                        <p class="service-description description">Intégration Frontend & Design Responsive, Développement d'Applications Web Sur Mesure, APIs et Intégration de Données</p>
+                        <h4 class="service-title">DEVELOPPEMENT WEB</h4>
+                        <ul class="service-description description">
+                            <li><span class="check"> &#10003 </span> Intégration Frontend </li>
+                            <li><span class="check"> &#10003 </span> Design Responsive </li>
+                            <li><span class="check"> &#10003 </span> Développement Sur Mesure </li>
+                            <li><span class="check"> &#10003 </span> APIs et Intégration de Données</li>
+                        </ul>
                     </div>
 
                     <div class="servicesCard">
-                        <img src="/src/icon/outils-dedition.png" alt="">
-                        <h4 class="service-title">UI/UX Design</h4>
-                        <p class="service-description description">Administration et Maintenance (DBA),Optimisation et Performance (Tuning), Conception et Modélisation de Données</p>
+                        <img src="/src/icon/server.png" alt="">
+                        <h4 class="service-title">BASE DE DONNEES</h4>
+                        <p class="service-description description"> <span class="check">&#10003 </span> Administration et Maintenance (DBA) <br> <span class="check">&#10003 </span> Optimisation et Performance (Tuning) <br> <span class="check">&#10003 </span> Modélisation de Données</p>
                     </div>
 
                 </div>

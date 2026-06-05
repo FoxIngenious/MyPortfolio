@@ -1,5 +1,6 @@
 *{
     transition: 100ms ease;
+    list-style: none;
 
 
 }
@@ -137,15 +138,16 @@ a{
 .skills{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 100px;
     /* align-items: center; */
     background: #fff;
     height: 50vh;
-    padding: 50px 200px;
+    padding: 50px 100px 50px 200px;
 }
 .sousTitre{
 
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 .aboutDescription
 {
@@ -177,10 +179,15 @@ a{
     gap: 5px ;
     border: 1px solid #d4b95c;
     border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.085);
     padding: 20px;
-    width: 200px;
+    width:210px;
     height: auto;
-}  
+    cursor: pointer;
+}
+.servicesCard:hover{
+    box-shadow: 0 10px 30px #d1b084b0;
+}
 .servicesCard img{
     width: 45px;
     height: 45px;
@@ -191,6 +198,11 @@ a{
 }
 .description{
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+.check{
+    background: #003366bb;
+    border-radius: 50%;
+    padding: 2px;
 }
 /* Les cards a designer plus tards concentrons sur  */
