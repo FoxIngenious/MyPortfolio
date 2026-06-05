@@ -65,7 +65,40 @@
 
         </section>
 
+        <section class="skills" id="skillsContenaire">
 
+            <div class="about">
+                <h2 class="title">A PROPOS</h2>
+                <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et les nouvelles technologies. </h3>
+                <p class="description">Designer et développeur freelance basé à Madagascar. <br>
+                    J’accompagne les marques et les entrepreneurs dans la création de sites <br> et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
+
+            </div>
+
+            <div class="services">
+                <h2 class="title services-title ">CE QUE JE FAIT </h2>
+
+                <div class="servicesCard">
+                    <img src="/src/icon/outils-dedition.png" alt="">
+                    <h4 class="service-title">UI/UX Design</h4>
+                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                </div>
+
+                <div class="servicesCard">
+                    <img src="/src/icon/outils-dedition.png" alt="">
+                    <h4 class="service-title">UI/UX Design</h4>
+                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                </div>
+
+                <div class="servicesCard">
+                    <img src="/src/icon/outils-dedition.png" alt="">
+                    <h4 class="service-title">UI/UX Design</h4>
+                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                </div>
+
+            </div>
+
+        </section>
     </main>
 
 
