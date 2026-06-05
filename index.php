@@ -29,7 +29,7 @@
 
                 <div class="CtaContenair">
                     <!-- Boutton vers pour télecharger mon CV -->
-                    <a href="src/cv.pdf" class="bttn"">
+                    <a href="src/cv.pdf" class="bttn" download="Jackson_Camille_CV.pdf">
                         <span>
                             <img id=" TelechargerCV" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
                         </span>
@@ -69,35 +69,36 @@
 
             <div class="about">
                 <h2 class="title">A PROPOS</h2>
-                <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et les nouvelles technologies. </h3>
-                <p class="description">Designer et développeur freelance basé à Madagascar. <br>
+                <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
+                <p class="aboutDescription">Designer et développeur freelance basé à Madagascar. <br>
                     J’accompagne les marques et les entrepreneurs dans la création de sites <br> et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
-
+                <a href="/about.php" class="bttn more">En savoir plus sur moi</a>
             </div>
 
             <div class="services">
-                <h2 class="title services-title ">CE QUE JE FAIT </h2>
+                <h2 class="title ">CE QUE JE FAIT </h2>
 
                 <div class="cardsContenaire">
 
                     <div class="servicesCard">
                         <img src="/src/icon/outils-dedition.png" alt="">
-                        <h4 class="service-title">UI/UX Design</h4>
-                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                        <h4 class="service-title">Design</h4>
+                        <p class="service-description description">Refonte et Modernisation Visuelle, UI / UX Design, Handoff (Passation aux Développeurs)</p>
+                        </p>
                     </div>
-    
+
+                    <div class="servicesCard">
+                        <img src="/src/icon/code.png" alt="">
+                        <h4 class="service-title">Dévéloppement Web</h4>
+                        <p class="service-description description">Intégration Frontend & Design Responsive, Développement d'Applications Web Sur Mesure, APIs et Intégration de Données</p>
+                    </div>
+
                     <div class="servicesCard">
                         <img src="/src/icon/outils-dedition.png" alt="">
                         <h4 class="service-title">UI/UX Design</h4>
-                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                        <p class="service-description description">Administration et Maintenance (DBA),Optimisation et Performance (Tuning), Conception et Modélisation de Données</p>
                     </div>
-    
-                    <div class="servicesCard">
-                        <img src="/src/icon/outils-dedition.png" alt="">
-                        <h4 class="service-title">UI/UX Design</h4>
-                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
-                    </div>
-                    
+
                 </div>
 
             </div>

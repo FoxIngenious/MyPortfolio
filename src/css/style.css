@@ -96,7 +96,7 @@ a{
 }                           
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50%       { transform: translateY(-10px); }
+  50%       { transform: translateY(-8px); }
 }
 #profilHero {
     z-index: 2;
@@ -143,7 +143,17 @@ a{
     height: 50vh;
     padding: 50px 200px;
 }
+.sousTitre{
 
+    font-size: 1.7rem;
+}
+.aboutDescription
+{
+    font-size: 1.5rem;
+}
+.bttn.more{
+    animation: none;
+}
 .services{
     display: flex;
     flex-direction: column;
@@ -168,10 +178,19 @@ a{
     border: 1px solid #d4b95c;
     border-radius: 30px;
     padding: 20px;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: auto;
 }  
 .servicesCard img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
+.service-title{
+    color: #003366;
+    font-size: 1.5rem;
+}
+.description{
+    color: #000;
+    font-size: 1.2rem;
+}
+/* Les cards a designer plus tards concentrons sur  */
