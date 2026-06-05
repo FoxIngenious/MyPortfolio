@@ -78,22 +78,26 @@
             <div class="services">
                 <h2 class="title services-title ">CE QUE JE FAIT </h2>
 
-                <div class="servicesCard">
-                    <img src="/src/icon/outils-dedition.png" alt="">
-                    <h4 class="service-title">UI/UX Design</h4>
-                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
-                </div>
+                <div class="cardsContenaire">
 
-                <div class="servicesCard">
-                    <img src="/src/icon/outils-dedition.png" alt="">
-                    <h4 class="service-title">UI/UX Design</h4>
-                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
-                </div>
-
-                <div class="servicesCard">
-                    <img src="/src/icon/outils-dedition.png" alt="">
-                    <h4 class="service-title">UI/UX Design</h4>
-                    <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                    <div class="servicesCard">
+                        <img src="/src/icon/outils-dedition.png" alt="">
+                        <h4 class="service-title">UI/UX Design</h4>
+                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                    </div>
+    
+                    <div class="servicesCard">
+                        <img src="/src/icon/outils-dedition.png" alt="">
+                        <h4 class="service-title">UI/UX Design</h4>
+                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                    </div>
+    
+                    <div class="servicesCard">
+                        <img src="/src/icon/outils-dedition.png" alt="">
+                        <h4 class="service-title">UI/UX Design</h4>
+                        <p class="service-description description">Photoshop, UI simple, affiches, conceptions visuelles</p>
+                    </div>
+                    
                 </div>
 
             </div>
