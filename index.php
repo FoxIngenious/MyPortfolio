@@ -72,7 +72,7 @@
                 <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
                 <p class="aboutDescription">Designer et développeur freelance basé à Madagascar. <br>
                     J’accompagne les marques et les entrepreneurs dans la création de sites et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
-                <a href="/about.php" class="bttn more">En savoir plus sur moi</a>
+                <a href="/about.php" class="bttn more">Lire plus</a>
             </div>
 
             <div class="services">
