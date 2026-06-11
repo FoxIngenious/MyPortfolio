@@ -16,7 +16,6 @@
 
     <main #indexMainPage>
 
-        <!-- ****************************HERO PAGE STRAT HERE ************************ -->
         <section class="Hero" id="mainPageHero">
 
             <div class="HeroInfos">
@@ -80,28 +79,38 @@
 
                 <div class="cardsContenaire">
 
-                    <div class="servicesCard">
-                        <img src="/src/icon/outils-dedition.png" alt="">
+                    <div class="servicesCard shadowed">
+                        <img src="/src/icon/outils-dedition.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DESIGN</h4>
-                        <p class="service-description description"> <span class="check">&#10003 </span> Refonte et Modernisation <br> <span class="check">&#10003 </span> UI / UX Design <br> <span class="check">&#10003 </span> Handoff Développeurs</p>
+                        <p class="service-description description">
+                            <span class="check">&#10003 </span> Refonte et Modernisation <br>
+                            <span class="check">&#10003 </span> UI / UX Design <br>
+                            <span class="check">&#10003 </span> Handoff Développeurs
                         </p>
+                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard dev">
-                        <img src="/src/icon/code.png" alt="">
+                    <div class="servicesCard dev shadowed">
+                        <img src="/src/icon/code.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DEVELOPPEMENT WEB</h4>
-                        <ul class="service-description description">
-                            <li><span class="check"> &#10003 </span> Intégration Frontend </li>
-                            <li><span class="check"> &#10003 </span> Design Responsive </li>
-                            <li><span class="check"> &#10003 </span> Développement Sur Mesure </li>
-                            <li><span class="check"> &#10003 </span> APIs et Intégration de Données</li>
-                        </ul>
+                        <p class="service-description description">
+                            <span class="check"> &#10003 </span> Intégration Frontend <br>
+                            <span class="check"> &#10003 </span> Design Responsive <br>
+                            <span class="check"> &#10003 </span> Développement Sur Mesure <br>
+                            <span class="check"> &#10003 </span> APIs/Intégration de Donnée
+                        </p>
+                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard">
-                        <img src="/src/icon/server.png" alt="">
+                    <div class="servicesCard shadowed">
+                        <img src="/src/icon/server.png" alt="icone " class="shadowed">
                         <h4 class="service-title">BASE DE DONNEES</h4>
-                        <p class="service-description description"> <span class="check">&#10003 </span> Administration et Maintenance (DBA) <br> <span class="check">&#10003 </span> Optimisation et Performance (Tuning) <br> <span class="check">&#10003 </span> Modélisation de Données</p>
+                        <p class="service-description description">
+                            <span class="check"> &#10003 </span> Administration/Maintenance <br>
+                            <span class="check"> &#10003 </span> Optimisation/Performance <br>
+                            <span class="check"> &#10003 </span> Modélisation de Données
+                        </p>
+                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
                 </div>

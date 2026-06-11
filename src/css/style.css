@@ -149,12 +149,19 @@ a{
 
     font-size: 1.6rem;
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .aboutDescription
 {
     font-size: 1.5rem;
 }
 .bttn.more{
     animation: none;
+    margin-top: auto;
+    margin-bottom: 70px;
 }
 .services{
     display: flex;
@@ -173,24 +180,32 @@ a{
     gap: 20px;
 
 }
+.shadowed{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.315);
+}
 .servicesCard{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px ;
     border: 1px solid #d4b95c;
     border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.085);
     padding: 20px;
     width:210px;
-    height: auto;
+min-height: 320px;
     cursor: pointer;
 }
 .servicesCard:hover{
     box-shadow: 0 10px 30px #d1b084b0;
 }
 .servicesCard img{
-    width: 45px;
+    width: 45px;    
     height: 45px;
+    background-color: #003366cc;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    overflow: visible;
 }
 .service-title{
     color: #003366;
@@ -198,11 +213,13 @@ a{
 }
 .description{
     color: #000;
-    font-size: 1.1rem;
+    pad: 0 5px;
 }
-.check{
-    background: #003366bb;
-    border-radius: 50%;
-    padding: 2px;
+.serviceRedirectio{
+    animation: none;
+    position: relative;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-top: auto;
+    border-radius: 10px;
 }
-/* Les cards a designer plus tards concentrons sur  */
