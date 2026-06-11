@@ -81,7 +81,7 @@ a{
 .bttn #envoyericon, #TelechargerCV{
     transform: translateY(5px);
 }
-.bttn:hover{
+.bttn:hover,.hoveredBttn{
     background: #c78c40;
     color: #fff;
 }
