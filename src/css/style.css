@@ -1,8 +1,7 @@
 *{
     transition: 100ms ease;
     list-style: none;
-
-
+    padding: 0;
 }
 main{
     background-color: #003366;
@@ -21,7 +20,7 @@ a{
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 0 200px; 
+    padding: 0 200px;
     justify-content: space-between;
     color: #fff;
     height: 100vh;
@@ -44,7 +43,7 @@ a{
 .heroTitle span{
     color: #d2b48c;
 }
-.heroSousTitre, 
+.heroSousTitre,
 .fonction{
     font-size: 4rem;
 }
@@ -96,7 +95,7 @@ a{
     align-items: center;
     position: relative;
     top: 10vh;
-}                           
+}
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-8px); }
@@ -135,14 +134,12 @@ a{
 }
 
 
-/* ***********************SKILLS SECTION************ */
+/* ***********************about&services SECTION************ */
 
-.skills{
+.aboutServices , .skills{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     gap: 100px;
-    /* align-items: center; */
     background: #fff;
     height: 50vh;
     padding: 50px 100px 50px 200px;
@@ -172,7 +169,7 @@ a{
     align-items: start;
 
 }
-.skills .title{
+.title{
     font-size: 2.5rem;
     color: #003366;
 }
@@ -194,20 +191,29 @@ a{
     border-radius: 30px;
     padding: 20px;
     width:210px;
-min-height: 320px;
+    min-height: 320px;
     cursor: pointer;
 }
 .servicesCard:hover{
     box-shadow: 0 10px 30px #d1b084b0;
 }
 .servicesCard img{
-    width: 45px;    
+    width: 45px;
     height: 45px;
-    background-color: #003366cc;
+    background-color: #d1b084b0;
     border: none;
     border-radius: 50%;
     padding: 15px;
     overflow: visible;
+}
+#devcards{
+    background: #003366;
+}
+#devcards .description{
+    color:white;
+}
+#devcards .service-title{
+    color:#d2b48c;
 }
 .service-title{
     color: #003366;
@@ -227,4 +233,33 @@ min-height: 320px;
 }
 .serviceRedirectio{
     transform: none;
+}
+
+/* **************Skills Section****** */
+.skills{
+    background: inherit;
+    height: 50vh;
+    justify-content: space-between;
+}
+.skills .title{
+    color: #fff; 
+}
+.competencesList{
+    display: flex;
+    gap: 8px;
+}
+.competencesSubTitles {
+    color: #d2b48c;
+    font-size: 1.4rem;
+}
+competencesList li::after {
+  content: "-";
+  margin: 0 8px; /* Espace avant et après le tiret */
+  color: #666;    /* Couleur du tiret */
+}
+
+/* Optionnel : Supprimer le tiret après le dernier élément */
+competencesList li:last-child::after {
+  content: "";
+  margin: 0;
 }

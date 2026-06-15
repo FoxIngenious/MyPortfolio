@@ -65,7 +65,7 @@
 
         </section>
 
-        <section class="skills" id="skillsContenaire">
+        <section class="aboutServices" id="skillsContenaire">
 
             <div class="about">
                 <h2 class="title">A PROPOS</h2>
@@ -91,7 +91,7 @@
                         <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard dev shadowed">
+                    <div class="servicesCard  shadowed" id="devcards">
                         <img src="/src/icon/code.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DEVELOPPEMENT WEB</h4>
                         <p class="service-description description">
@@ -119,6 +119,74 @@
             </div>
 
         </section>
+
+        <section class="skills ">
+            <div class="competences">
+                <h2 class="title">COMPETENCES</h2>
+                <h4 class="competencesSubTitles">GRAPHISME</h4>
+                <ul class=" competencesList">
+                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>InkScape</li>
+                </ul>
+
+                <h4 class="competencesSubTitles">DEVELOPPEMENT WEB</h4>
+                <ul class=" competencesList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SQL (MySql) </li>
+                </ul>
+
+                <h4 class="competencesSubTitles">PROGRAMMATION</h4>
+                <ul class=" competencesList">
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>MATLAB</li>
+                </ul>
+
+            </div>
+            <div class="stack">
+                <h2 class="title">LES OUTILS QUE J'UTILISES</h2>
+                <div class="codeStack">
+                    <ul class="stackIconeContenaire">
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="OSStack">
+                    <h2 class="title">OS</h2>
+                    <ul class="stackIconeContenaire">
+                        <li class="StackIcone">
+                            <img src="/src/icon/linux.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/linux.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
 
