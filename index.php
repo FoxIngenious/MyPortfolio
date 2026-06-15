@@ -76,7 +76,7 @@
             </div>
 
             <div class="services">
-                <h2 class="title ">CE QUE JE FAIT </h2>
+                <h2 class="title "> SERVICES </h2>
 
                 <div class="cardsContenaire">
 
@@ -148,23 +148,23 @@
 
             </div>
             <div class="stack">
-                <h2 class="title">LES OUTILS QUE J'UTILISES</h2>
+                <h2 class="title">OUTILS MAÎTRISER</h2>
                 <div class="codeStack">
                     <ul class="stackIconeContenaire">
                         <li class="StackIcone">
-                            <img src="/src/icon/photoshop.png" alt="">
+                            <img src="/src/icon/photoshop.png" alt="photoshopIcone">
                         </li>
                         <li class="StackIcone">
-                            <img src="/src/icon/photoshop.png" alt="">
+                            <img src="/src/icon/figma.png" alt="figmaIcone">
                         </li>
                         <li class="StackIcone">
-                            <img src="/src/icon/photoshop.png" alt="">
+                            <img src="/src/icon/vscode.png" alt="vsCodeIcone">
                         </li>
                         <li class="StackIcone">
-                            <img src="/src/icon/photoshop.png" alt="">
+                            <img src="/src/icon/git.png" alt="gitIcone">
                         </li>
                         <li class="StackIcone">
-                            <img src="/src/icon/photoshop.png" alt="">
+                            <img src="/src/icon/github.png" alt="githubIcone">
                         </li>
                     </ul>
 
@@ -177,7 +177,7 @@
                             <img src="/src/icon/linux.png" alt="">
                         </li>
                         <li class="StackIcone">
-                            <img src="/src/icon/linux.png" alt="">
+                            <img src="/src/icon/windows.png" alt="">
                         </li>
                     </ul>
 

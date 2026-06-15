@@ -236,7 +236,7 @@ a{
 }
 
 /* **************Skills Section****** */
-.skills{
+.skills, .stack{
     background: inherit;
     height: 50vh;
     justify-content: space-between;
@@ -252,14 +252,34 @@ a{
     color: #d2b48c;
     font-size: 1.4rem;
 }
-competencesList li::after {
+.competencesList li {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.competencesList li::after {
   content: "-";
   margin: 0 8px; /* Espace avant et après le tiret */
   color: #666;    /* Couleur du tiret */
+  font-size: 2rem;
 }
 
 /* Optionnel : Supprimer le tiret après le dernier élément */
-competencesList li:last-child::after {
+.competencesList li:last-child::after {
   content: "";
   margin: 0;
+}
+.stackIconeContenaire{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.StackIcone {
+    padding-top: 5px;
+}
+.StackIcone img{
+    max-width: 60px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
 }
