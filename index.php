@@ -120,33 +120,45 @@
 
         </section>
 
-        <section class="skills ">
-            <div class="competences">
+        <section class="skillsContenaire ">
+            
+            <div class="NostackSkills">
+
                 <h2 class="title">COMPETENCES</h2>
-                <h4 class="competencesSubTitles">GRAPHISME</h4>
-                <ul class=" competencesList">
-                    <li>Photoshop</li>
-                    <li>Figma</li>
-                    <li>InkScape</li>
-                </ul>
+                <div class="competencesWrap">
 
-                <h4 class="competencesSubTitles">DEVELOPPEMENT WEB</h4>
-                <ul class=" competencesList">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                    <li>SQL (MySql) </li>
-                </ul>
-
-                <h4 class="competencesSubTitles">PROGRAMMATION</h4>
-                <ul class=" competencesList">
-                    <li>C/C++</li>
-                    <li>Python</li>
-                    <li>MATLAB</li>
-                </ul>
-
+                    <div class="competences">
+                        <h4 class="competencesSubTitles">GRAPHISME</h4>
+                        <ol class=" competencesList">
+                            <li>Photoshop</li>
+                            <li>Figma</li>
+                            <li>InkScape</li>
+                        </ol>
+                    </div>
+                    <div class="competences">
+                
+                        <h4 class="competencesSubTitles">DEVELOPPEMENT WEB</h4>
+                        <ol class=" competencesList">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>SQL (MySql) </li>
+                        </ol>
+                    </div>
+                
+                    <div class="competences">
+                        <h4 class="competencesSubTitles">PROGRAMMATION</h4>
+                        <ol class=" competencesList">
+                            <li>C/C++</li>
+                            <li>Python</li>
+                            <li>MATLAB</li>
+                        </ol>
+                    </div>
+                </div>
+                <p class="remark">(React et Laravel en cours d'apprentissage)</p>
             </div>
+
+
             <div class="stack">
                 <h2 class="title">OUTILS MAÎTRISER</h2>
                 <div class="codeStack">

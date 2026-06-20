@@ -136,7 +136,7 @@ a{
 
 /* ***********************about&services SECTION************ */
 
-.aboutServices , .skills{
+.aboutServices , .skillsContenaire{
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -160,7 +160,7 @@ a{
 .bttn.more{
     animation: none;
     margin-top: auto;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .services{
     display: flex;
@@ -235,38 +235,57 @@ a{
     transform: none;
 }
 
-/* **************Skills Section****** */
-.skills, .stack{
+/* **************skillsContenaire Section****** */
+.skillsContenaire, .stack{
     background: inherit;
     height: 50vh;
     justify-content: space-between;
 }
-.skills .title{
+.skillsContenaire .title{
     color: #fff; 
 }
 .competencesList{
     display: flex;
+    flex-direction: column;
     gap: 8px;
 }
 .competencesSubTitles {
     color: #d2b48c;
     font-size: 1.4rem;
 }
-.competencesList li {
+.competences{
+    counter-reset: liste;
+    display: flex;
+    flex-direction: column;
+}
+.competencesWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.competences ol li {
     color: #fff;
     font-size: 1.2rem;
 }
-.competencesList li::after {
-  content: "-";
-  margin: 0 8px; /* Espace avant et après le tiret */
-  color: #666;    /* Couleur du tiret */
-  font-size: 2rem;
-}
-
-/* Optionnel : Supprimer le tiret après le dernier élément */
-.competencesList li:last-child::after {
-  content: "";
-  margin: 0;
+.competences ol li::before{
+    display: inline-block;
+    counter-increment: liste;
+    content: counter(liste);
+    color: #003366;
+    font-weight: bold;
+    padding: 2px;
+    background: #ffffff8a;
+    margin-right: 5px;
+    aspect-ratio: 1;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;
+}   
+.skillsContenaire .remark{
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 20px auto;
+    color: rgba(128, 128, 128, 0.623);
 }
 .stackIconeContenaire{
     display: flex;
