@@ -7,12 +7,20 @@ main{
     background-color: #003366;
     font-family: "Source sans 3", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
 }
 .icon{
     width: 30px;
     height: auto;
+}
+
+/* Ajoute un espace de 80px au-dessus du titre lors de l'arrivée sur l'ancre */
+section {
+  scroll-margin-top: 80px; 
 }
 
 .Hero{

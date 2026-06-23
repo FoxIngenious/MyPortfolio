@@ -198,6 +198,10 @@
 
         </section>
 
+        <section class="contact">
+            <h2 class="title">Contact</h2>
+        </section>
+
 
     </main>
 
