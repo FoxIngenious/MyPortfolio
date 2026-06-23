@@ -65,18 +65,18 @@
 
         </section>
 
-        <section class="skills" id="skillsContenaire">
+        <section class="aboutServices" id="skillsContenaire">
 
             <div class="about">
                 <h2 class="title">A PROPOS</h2>
                 <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
                 <p class="aboutDescription">Designer et développeur freelance basé à Madagascar. <br>
                     J’accompagne les marques et les entrepreneurs dans la création de sites et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
-                <a href="/about.php" class="bttn more">En savoir plus sur moi</a>
+                <a href="/about.php" class="bttn more">Lire plus</a>
             </div>
 
             <div class="services">
-                <h2 class="title ">CE QUE JE FAIT </h2>
+                <h2 class="title "> SERVICES </h2>
 
                 <div class="cardsContenaire">
 
@@ -91,7 +91,7 @@
                         <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard dev shadowed">
+                    <div class="servicesCard  shadowed" id="devcards">
                         <img src="/src/icon/code.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DEVELOPPEMENT WEB</h4>
                         <p class="service-description description">
@@ -119,6 +119,86 @@
             </div>
 
         </section>
+
+        <section class="skillsContenaire ">
+            
+            <div class="NostackSkills">
+
+                <h2 class="title">COMPETENCES</h2>
+                <div class="competencesWrap">
+
+                    <div class="competences">
+                        <h4 class="competencesSubTitles">GRAPHISME</h4>
+                        <ol class=" competencesList">
+                            <li>Photoshop</li>
+                            <li>Figma</li>
+                            <li>InkScape</li>
+                        </ol>
+                    </div>
+                    <div class="competences">
+                
+                        <h4 class="competencesSubTitles">DEVELOPPEMENT WEB</h4>
+                        <ol class=" competencesList">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>SQL (MySql) </li>
+                        </ol>
+                    </div>
+                
+                    <div class="competences">
+                        <h4 class="competencesSubTitles">PROGRAMMATION</h4>
+                        <ol class=" competencesList">
+                            <li>C/C++</li>
+                            <li>Python</li>
+                            <li>MATLAB</li>
+                        </ol>
+                    </div>
+                </div>
+                <p class="remark">(React et Laravel en cours d'apprentissage)</p>
+            </div>
+
+
+            <div class="stack">
+                <h2 class="title">OUTILS MAÎTRISER</h2>
+                <div class="codeStack">
+                    <ul class="stackIconeContenaire">
+                        <li class="StackIcone">
+                            <img src="/src/icon/photoshop.png" alt="photoshopIcone">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/figma.png" alt="figmaIcone">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/vscode.png" alt="vsCodeIcone">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/git.png" alt="gitIcone">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/github.png" alt="githubIcone">
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="OSStack">
+                    <h2 class="title">OS</h2>
+                    <ul class="stackIconeContenaire">
+                        <li class="StackIcone">
+                            <img src="/src/icon/linux.png" alt="">
+                        </li>
+                        <li class="StackIcone">
+                            <img src="/src/icon/windows.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
 

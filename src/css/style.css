@@ -1,8 +1,7 @@
 *{
     transition: 100ms ease;
     list-style: none;
-
-
+    padding: 0;
 }
 main{
     background-color: #003366;
@@ -21,7 +20,7 @@ a{
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 0 200px; 
+    padding: 0 200px;
     justify-content: space-between;
     color: #fff;
     height: 100vh;
@@ -44,7 +43,7 @@ a{
 .heroTitle span{
     color: #d2b48c;
 }
-.heroSousTitre, 
+.heroSousTitre,
 .fonction{
     font-size: 4rem;
 }
@@ -77,6 +76,7 @@ a{
     border-radius: 25px;
     color: #003366;
     animation: float 2s ease-in-out infinite;
+    box-shadow: 2px 2px 5px #0000007c;
 }
 .bttn #envoyericon, #TelechargerCV{
     transform: translateY(5px);
@@ -95,7 +95,7 @@ a{
     align-items: center;
     position: relative;
     top: 10vh;
-}                           
+}
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-8px); }
@@ -134,14 +134,12 @@ a{
 }
 
 
-/* ***********************SKILLS SECTION************ */
+/* ***********************about&services SECTION************ */
 
-.skills{
+.aboutServices , .skillsContenaire{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     gap: 100px;
-    /* align-items: center; */
     background: #fff;
     height: 50vh;
     padding: 50px 100px 50px 200px;
@@ -162,7 +160,7 @@ a{
 .bttn.more{
     animation: none;
     margin-top: auto;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .services{
     display: flex;
@@ -171,7 +169,7 @@ a{
     align-items: start;
 
 }
-.skills .title{
+.title{
     font-size: 2.5rem;
     color: #003366;
 }
@@ -193,20 +191,29 @@ a{
     border-radius: 30px;
     padding: 20px;
     width:210px;
-min-height: 320px;
+    min-height: 320px;
     cursor: pointer;
 }
 .servicesCard:hover{
     box-shadow: 0 10px 30px #d1b084b0;
 }
 .servicesCard img{
-    width: 45px;    
+    width: 45px;
     height: 45px;
-    background-color: #003366cc;
+    background-color: #d1b084b0;
     border: none;
     border-radius: 50%;
     padding: 15px;
     overflow: visible;
+}
+#devcards{
+    background: #003366;
+}
+#devcards .description{
+    color:white;
+}
+#devcards .service-title{
+    color:#d2b48c;
 }
 .service-title{
     color: #003366;
@@ -226,4 +233,72 @@ min-height: 320px;
 }
 .serviceRedirectio{
     transform: none;
+}
+
+/* **************skillsContenaire Section****** */
+.skillsContenaire, .stack{
+    background: inherit;
+    height: 50vh;
+    justify-content: space-between;
+}
+.skillsContenaire .title{
+    color: #fff; 
+}
+.competencesList{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.competencesSubTitles {
+    color: #d2b48c;
+    font-size: 1.4rem;
+}
+.competences{
+    counter-reset: liste;
+    display: flex;
+    flex-direction: column;
+}
+.competencesWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.competences ol li {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.competences ol li::before{
+    display: inline-block;
+    counter-increment: liste;
+    content: counter(liste);
+    color: #003366;
+    font-weight: bold;
+    padding: 2px;
+    background: #ffffff8a;
+    margin-right: 5px;
+    aspect-ratio: 1;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;
+}   
+.skillsContenaire .remark{
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 20px auto;
+    color: rgba(128, 128, 128, 0.623);
+}
+.stackIconeContenaire{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.StackIcone {
+    padding-top: 5px;
+}
+.StackIcone img{
+    max-width: 60px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
 }
