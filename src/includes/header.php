@@ -28,7 +28,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 <style>
     * {
         margin: 0;
-    }
+    } 
 
     #mainNav {
         position: fixed;
