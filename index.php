@@ -29,10 +29,20 @@
                 </p>
 
                 <div class="CtaContenair">
-                    <!-- Boutton vers pour télecharger mon CV -->
-                    <a href="src/cv.pdf" class="bttn" download="Jackson_Camille_CV.pdf">
+                    <!-- Boutton vers le contact -->
+                    <a href="contact.php" class="bttn" id="MeCOntacterBttn">
                         <span>
-                            <img id=" TelechargerCV" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
+                            <img id="envoyericon" class="icon" src="/src/icon/envoyer.png" alt="envoyer_icon">
+                        </span>
+    
+                        <span >
+                            ME CONTACTER
+                        </span>
+                    </a>
+                    <!-- Boutton vers pour télecharger mon CV -->
+                    <a href="src/cv.pdf" class="bttn" download="Jackson_Camille_CV.pdf" id="TelechargerCV">
+                        <span>
+                            <img id="TelechargerCVIcon" class="icon" src="/src/icon/telechargements.png" alt="Download_icon">
                         </span>
 
                         <span>
@@ -40,16 +50,6 @@
                         </span>
                     </a>
 
-                    <!-- Boutton vers le contact -->
-                    <a href="contact.php" class="bttn">
-                        <span>
-                            <img id="envoyericon" class="icon" src="/src/icon/envoyer.png" alt="envoyer_icon">
-                        </span>
-
-                        <span>
-                            ME CONTACTER
-                        </span>
-                    </a>
 
                 </div>
 
@@ -201,8 +201,8 @@
 
         <!-- Contact Section -->
     <section class="contact" id="contact">
-        <div class="title reveal">
-            <h2 style="color: white;">Contactez-Moi</h2>
+        <div class="reveal" id="titleContenanaire">
+            <h2 style="color: white;" class="title" >CONTACTEZ-MOI</h2>
             <div class="line" style="background: #d4b95c"></div>
         </div>
         <div class="contact-container">

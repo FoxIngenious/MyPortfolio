@@ -83,13 +83,17 @@ section {
     border: none;
     border-radius: 25px;
     color: #003366;
-    animation: float 2s ease-in-out infinite;
     box-shadow: 2px 2px 5px #0000007c;
 }
-.bttn #envoyericon, #TelechargerCV{
+.bttn #envoyericon, #TelechargerCVIcon{
     transform: translateY(5px);
 }
-.bttn:hover,.hoveredBttn{
+#TelechargerCV{
+    background: inherit;
+    color: #fff;
+    border: #c78c40 solid 1px;
+}
+.bttn:hover,.hoveredBttn, #TelechargerCV:hover{
     background: #c78c40;
     color: #fff;
     transform: translateY(-5px);
@@ -103,10 +107,6 @@ section {
     align-items: center;
     position: relative;
     top: 10vh;
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50%       { transform: translateY(-8px); }
 }
 #profilHero {
     z-index: 2;
@@ -152,8 +152,8 @@ section {
     height: 50vh;
     padding: 50px 100px 50px 200px;
 }
-.sousTitre{
-
+.skillsContenaire{
+    height: 30vh !important;
     font-size: 1.6rem;
 }
 .about{
@@ -244,7 +244,7 @@ section {
 }
 
 /* **************skillsContenaire Section****** */
-.skillsContenaire, .stack{
+.skillsContenaire{
     background: inherit;
     height: 50vh;
     margin: 0 auto;
@@ -293,7 +293,7 @@ section {
     width: 28px;
     border-radius: 50%;
     text-align: center;
-}   
+}
 .skillsContenaire .remark{
     font-size: 1.1rem;
     width: 60%;
@@ -319,7 +319,14 @@ section {
 .contact{
     color: #fff;
 }
-.contact-container {
+#titleContenanaire{
+    display: grid;
+    
+}
+#titleContenanaire h2{
+    margin: auto auto 5% auto;
+}
+.contact-container{
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
