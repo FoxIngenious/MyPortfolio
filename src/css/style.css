@@ -45,7 +45,7 @@ section {
 }
 .heroTitle {
     color: #fff;
-    font-size: 7rem;
+    font-size: 7em;
     box-sizing: border-box;
     width: 100%;
     border-bottom: #d2b48c 3px solid;
@@ -55,7 +55,7 @@ section {
 }
 .heroSousTitre,
 .fonction{
-    font-size: 4rem;
+    font-size: 4em;
 }
 .heroSousTitre,
 .heroDescription,
