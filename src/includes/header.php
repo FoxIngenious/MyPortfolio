@@ -10,7 +10,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JacksonCamille | <?= $page_name === 'index' ? 'Acceuile' : $page_name ?></title>
+    <title>JacksonCamille | <?= $page_name === 'index' ? 'Acceuile' : $page_name ?></title> <!-- Si le nom du page = index on donne un nom Acceuille si non le nom de la page-->
 </head>
 
 <body>
