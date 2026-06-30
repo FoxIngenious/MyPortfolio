@@ -17,12 +17,13 @@
     </header>
 
     <main #indexMainPage>
-
+                            <!-- Hero page -->
         <section class="Hero" id="mainPageHero">
 
             <div class="HeroInfos">
-                <h1 class="heroTitle">Jackson <span class="camille">Camille</span></h1>
-                <h2 class="heroSousTitre">ETUDIANT EN GENIE INFORMATIQUE <br> A L'ISSTM - MAHAJANGA</h2>
+                <h1 class="heroTitle">Jackson <span>Camille</span></h1>
+                <div class="ligne"></div>
+                <h2 class="heroSousTitre">ETUDIANT EN GENIE INFORMATIQUE A L'ISSTM - MAHAJANGA</h2>
                 <h2 class="fonction">Développeur & Designer</h2>
                 <p class="heroDescription">
                     "Transformons vos idées en réalité"

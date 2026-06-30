@@ -16,24 +16,24 @@ a{
     text-decoration: none;
 }
 .icon{
-    width: 30px;
+    max-width: 30px;
     height: auto;
 }
 
 /* Ajoute un espace de 80px au-dessus du titre lors de l'arrivée sur l'ancre */
 section {
-  scroll-margin-top: 80px; 
+  scroll-margin-top: 80px;
+  padding: 0 200px;
 }
 
 .Hero{
     position: relative;
-    display: flex;
+    display: grid;
     align-items: center;
-    flex-direction: row;
-    padding: 0 200px;
+    grid-template-columns: 70% 30%;
     justify-content: space-between;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 .HeroInfos{
@@ -42,20 +42,25 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 100%;
 }
 .heroTitle {
     color: #fff;
     font-size: 7em;
     box-sizing: border-box;
     width: 100%;
-    border-bottom: #d2b48c 3px solid;
+}
+.ligne {
+    border: #d2b48c 3px solid;
+    width: 81%;
 }
 .heroTitle span{
     color: #d2b48c;
 }
 .heroSousTitre,
 .fonction{
-    font-size: 4em;
+    font-size: 3.5rem;
+    width: 100%;
 }
 .heroSousTitre,
 .heroDescription,
@@ -66,7 +71,7 @@ section {
     font-family:'Courier New', Courier, monospace;
 }
 .heroDescription{
-    font-size: 4vh;
+    font-size: 2rem;
 }
 .CtaContenair{
     display: flex;
@@ -81,13 +86,16 @@ section {
     background: #d2b48c;
     padding: 15px 10px;
     margin-top: 25px;
-    font-size: 20pt;
+    font-size: 1.7rem;
     border: none;
     border-radius: 25px;
     color: #003366;
     box-shadow: 2px 2px 5px #0000007c;
 }
-.bttn #envoyericon, #TelechargerCVIcon{
+#MeCOntacterBttn, #TelechargerCV{
+    max-width: 100%;
+}
+#envoyericon, #TelechargerCVIcon{
     transform: translateY(5px);
 }
 #TelechargerCV{
@@ -108,11 +116,13 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 10vh;
+    margin-top: auto;
 }
 #profilHero {
     z-index: 2;
     display: block;
+    margin-top: auto;
+    max-width: 100%;
 }
 .circle{
     position: absolute;
@@ -147,21 +157,21 @@ section {
 /* ***********************about&services SECTION************ */
 
 .aboutServices , .skillsContenaire{
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background: #fff;
-    height: 50vh;
-    padding: 50px 100px 50px 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .skillsContenaire{
-    height: 30vh !important;
+    max-height: 30vh !important;
     font-size: 1.6rem;
 }
 .about{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 90%;
 }
 .aboutDescription
 {
@@ -257,7 +267,7 @@ section {
     /* z-index: 2; */
 }
 .skillsContenaire .title{
-    color: #fff; 
+    color: #fff;
 }
 .competencesList{
     display: flex;
@@ -323,7 +333,7 @@ section {
 }
 #titleContenanaire{
     display: grid;
-    
+
 }
 #titleContenanaire h2{
     margin: auto auto 5% auto;
