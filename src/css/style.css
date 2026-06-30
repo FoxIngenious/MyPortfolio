@@ -46,9 +46,11 @@ section {
 }
 .heroTitle {
     color: #fff;
-    font-size: 7em;
+    /* font-size: clamp(1.2vw, 6vw, 7vw); */
+    font-size: 6vw;
     box-sizing: border-box;
     width: 100%;
+    white-space: nowrap;
 }
 .ligne {
     border: #d2b48c 3px solid;
@@ -59,7 +61,7 @@ section {
 }
 .heroSousTitre,
 .fonction{
-    font-size: 3.5rem;
+    font-size: clamp(1.2em, 2.5vw, 3.5rem);
     width: 100%;
 }
 .heroSousTitre,
@@ -71,14 +73,14 @@ section {
     font-family:'Courier New', Courier, monospace;
 }
 .heroDescription{
-    font-size: 2rem;
+    font-size: clamp(0.5rem, 2vw, 2rem);
 }
 .CtaContenair{
     display: flex;
     gap: 50px;
 }
 .bttn{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -86,16 +88,20 @@ section {
     background: #d2b48c;
     padding: 15px 10px;
     margin-top: 25px;
-    font-size: 1.7rem;
+    font-size: clamp(0.4rem, 1.5vw, 1.7rem);
     border: none;
     border-radius: 25px;
     color: #003366;
     box-shadow: 2px 2px 5px #0000007c;
+    white-space: no;
 }
 #MeCOntacterBttn, #TelechargerCV{
     max-width: 100%;
+    height: auto;
 }
 #envoyericon, #TelechargerCVIcon{
+    width: 10vw;
+    height: auto;
     transform: translateY(5px);
 }
 #TelechargerCV{
@@ -122,30 +128,31 @@ section {
     z-index: 2;
     display: block;
     margin-top: auto;
-    max-width: 100%;
+    width: clamp(325px , 95% , 100%);
+    height: auto;
 }
 .circle{
     position: absolute;
     z-index: 1;
     border: #d2b48c46 solid 2px;
     border-radius: 50%;
-    width: 95vh;
-    height: 95vh;
+    width: 50vw;
+    aspect-ratio: 1 / 1;
 }
 .second{
-    width: 70vh;
-    height: 70vh;
+    width: 40vw;
+    aspect-ratio: 1 / 1;
 }
 .dotrotate{
     border: #d2b48c46 dashed 5px;
-    width: 60vh;
-    height: 60vh;
+    width: 30vw;
+    aspect-ratio: 1 / 1;
     animation: spin-slow 30s linear infinite;
 }
 .fill{
     border: none;
-    width: 50vh;
-    height: 50vh;
+    width: 25vw;
+    aspect-ratio: 1 / 1;
     background: #d2b48c46;
 }
 @keyframes spin-slow {
