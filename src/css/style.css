@@ -169,10 +169,12 @@ section {
     background: #fff;
     padding-bottom: 50px;
     padding-top: 50px;
+    max-width: 100%;
 }
 .skillsContenaire{
     max-height: 30vh !important;
-    font-size: 1.6rem;
+    font-size: clamp(1.2rem, 50vw,1.6rem);
+
 }
 .about{
     display: flex;
@@ -201,9 +203,10 @@ section {
     color: #003366;
 }
 .cardsContenaire{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(210px, 1fr));
+    gap: 30px;
+    width: 100%;
 
 }
 .shadowed{
@@ -217,7 +220,7 @@ section {
     border: 1px solid #d4b95c;
     border-radius: 30px;
     padding: 20px;
-    width:210px;
+    min-width:210px;
     min-height: 320px;
     cursor: pointer;
 }
