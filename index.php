@@ -90,7 +90,7 @@
                             <span class="check">&#10003 </span> UI / UX Design <br>
                             <span class="check">&#10003 </span> Handoff Développeurs
                         </p>
-                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
+                        <a href="/services.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
                     <div class="servicesCard  shadowed" id="devcards">
@@ -102,7 +102,7 @@
                             <span class="check"> &#10003 </span> Développement Sur Mesure <br>
                             <span class="check"> &#10003 </span> APIs/Intégration de Donnée
                         </p>
-                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
+                        <a href="/services.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
                     <div class="servicesCard shadowed">
@@ -113,7 +113,7 @@
                             <span class="check"> &#10003 </span> Optimisation/Performance <br>
                             <span class="check"> &#10003 </span> Modélisation de Données
                         </p>
-                        <a href="/index.php" class="bttn serviceRedirectio">En savoir plus</a>
+                        <a href="/services.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
                 </div>
