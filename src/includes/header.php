@@ -1,5 +1,16 @@
-
-    <div class="navBar" id="mainNav">
+<?php
+// Récupère le nom du fichier actuel (ex: index.php, contact.php)
+$page_actuelle = basename($_SERVER['PHP_SELF']);
+$page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
+?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JacksonCamille | <?= $page_name === 'index' ? 'Acceuile' : $page_name ?></title> <!-- Si le nom du page = index on donne un nom Acceuille si non le nom de la page-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/src/Js/script.js" defer></script>
+</head> 
+    <nav class="navBar" id="mainNav">
         <a href="/index.php"><img src="/src/Image/profilweb.webp" alt=" jacksonCamilleProfil" id="navProfil"></a>
         <ul id="menu">
             <li><a href="/index.php" class="<?= $page_actuelle === 'index.php' ?  'active' : '' ?>">Acceuil</a></li>
@@ -7,7 +18,7 @@
             <li><a href="/services.php" class="<?= $page_actuelle === 'services.php' ?  'active' : '' ?>">Services</a></li>
             <li><a href="/contact.php" class="<?= $page_actuelle === 'contact.php' ?  'active' : '' ?>">Contact</a></li>
         </ul>
-    </div>
+    </nav>
 
 <style>
     * {
@@ -18,11 +29,13 @@
         position: fixed;
         z-index: 3;
         width: 100%;
+        height:70px;
         display: flex;
         background-color: #003366;
         align-items: center;
         border-bottom: #d2b48c 5px solid;
         justify-content: space-between;
+        top: 0;
     }
 
     img#navProfil {

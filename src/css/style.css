@@ -3,9 +3,11 @@
     list-style: none;
     padding: 0;
     outline: none;
+    margin: 0;
 
 }
 main{
+    margin-top: 70px;
     background-color: #003366;
     font-family: "Source sans 3", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,7 +35,7 @@ section {
     grid-template-columns: 70% 30%;
     justify-content: space-between;
     color: #fff;
-    min-height: 100vh;
+    min-height: 93vh;
     overflow: hidden;   
 }
 .HeroInfos{
