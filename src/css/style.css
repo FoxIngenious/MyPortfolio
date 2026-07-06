@@ -34,7 +34,7 @@ section {
     justify-content: space-between;
     color: #fff;
     min-height: 100vh;
-    overflow: hidden;
+    overflow: hidden;   
 }
 .HeroInfos{
     position: relative;

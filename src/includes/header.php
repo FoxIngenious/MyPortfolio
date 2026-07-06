@@ -20,7 +20,7 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
         <ul id="menu">
             <li><a href="/index.php" class="<?= $page_actuelle === 'index.php' ?  'active' : '' ?>">Acceuil</a></li>
             <li><a href="/about.php" class="<?= $page_actuelle === 'about.php' ?  'active' : '' ?>">A propos</a></li>
-            <li><a href="/Services.php" class="<?= $page_actuelle === 'services.php' ?  'active' : '' ?>">Services</a></li>
+            <li><a href="/services.php" class="<?= $page_actuelle === 'services.php' ?  'active' : '' ?>">Services</a></li>
             <li><a href="/contact.php" class="<?= $page_actuelle === 'contact.php' ?  'active' : '' ?>">Contact</a></li>
         </ul>
     </nav>
