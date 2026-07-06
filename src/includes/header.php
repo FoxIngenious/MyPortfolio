@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<?php
-// Récupère le nom du fichier actuel (ex: index.php, contact.php)
-$page_actuelle = basename($_SERVER['PHP_SELF']);
-$page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
-?>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JacksonCamille | <?= $page_name === 'index' ? 'Acceuile' : $page_name ?></title> <!-- Si le nom du page = index on donne un nom Acceuille si non le nom de la page-->
-</head>
-
-<body>
 
     <nav class="navBar" id="mainNav">
         <a href="/index.php"><img src="/src/Image/profilweb.webp" alt=" jacksonCamilleProfil" id="navProfil"></a>
@@ -25,7 +9,6 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
         </ul>
     </nav>
 
-</body>
 <style>
     * {
         margin: 0;
@@ -86,5 +69,3 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
 
     }
 </style>
-
-</html>
