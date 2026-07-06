@@ -9,6 +9,10 @@
         <!-- inclusion du header -->
         <?php require 'src/includes/header.php'  ?>
     </header>
-    
+    <main>
+        <section>
+            <H1>Mes Services</H1>
+        </section>
+    </main>
 </body>
 </html>
