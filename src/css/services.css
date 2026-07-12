@@ -17,7 +17,7 @@
 
 body{
   font-family:Arial, sans-serif;
-  background:var(--bg);
+  background:var(--blue);
   color:var(--text);
 }
 
