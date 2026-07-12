@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <footer>
         <div class="SocialMediaContenair">
                 <img src="/src/icon/github.webp" alt="githubIcon">
                 <img src="/src/icon/LinkedIn_icon.svg.png" alt="LinkedInIcon">
@@ -14,7 +13,6 @@
             <p>Jackson Camille , Juillet 2026 </p> 
             <p>Portfolio V0.1</p>
         </div>
-    </footer>
 </body>
 <style>
     footer{
