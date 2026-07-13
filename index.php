@@ -67,7 +67,7 @@
 
         </section>
 
-        <section class="aboutServices" id="skillsContenaire">
+        <section class="aboutServices contenaire" id="skillsContenaire">
 
             <div class="about">
                 <h2 class="title">A PROPOS</h2>
@@ -122,7 +122,7 @@
 
         </section>
 
-        <section class="skillsContenaire ">
+        <section class="skillsContenaire">
             
             <div class="NostackSkills">
 

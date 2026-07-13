@@ -30,6 +30,7 @@ main{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -46,11 +47,13 @@ a,
     max-width: 30px;
     height: auto;
 }
-
+.contenaire{
+    grid-template-columns: repeat(auto-fit,minmax(450px, 1fr));
+}
 /* Ajoute un espace de 80px au-dessus du titre lors de l'arrivée sur l'ancre */
 section {
   scroll-margin-top: 80px;
-  padding: 0 10vw;
+  padding: 0 8vw;
 }
 
 .Hero{
@@ -194,22 +197,18 @@ section {
 
 .aboutServices , .skillsContenaire{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     background: #fff;
     padding-bottom: 50px;
     padding-top: 50px;
-    max-width: 100%;
-}
-.skillsContenaire{
-    max-height: 30vh ;
-    font-size: var(--fs-normal);
-
+    width: 100%;
 }
 .about{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 90%;
+}
+.about, .cardsContenaire{
+    width:80%;;
 }
 .aboutDescription
 {
@@ -234,8 +233,7 @@ section {
 .cardsContenaire{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(210px, 1fr));
-    gap: 30px;
-    width: 100%;
+    gap: 20px;
 
 }
 .shadowed{
@@ -300,10 +298,10 @@ section {
     min-height: 50vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
     position: relative;
-    /* z-index: 2; */
+    font-size: var(--fs-normal);
 }
 .skillsContenaire .title{
     color: #fff;
@@ -352,9 +350,9 @@ section {
     color: rgba(128, 128, 128, 0.623);
 }
 .stackIconeContenaire{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(70px , 1fr));
+    width: 80%;
 }
 .StackIcone {
     padding-top: 5px;
