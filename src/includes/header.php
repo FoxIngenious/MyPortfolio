@@ -36,11 +36,11 @@ $page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
         border-bottom: #d2b48c 5px solid;
         justify-content: space-between;
         top: 0;
+        padding: 0 8vw;
     }
 
     img#navProfil {
         width: 50px;
-        margin-left: 200px;
         cursor: pointer;
     }
 
