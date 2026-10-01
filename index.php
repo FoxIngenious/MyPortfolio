@@ -2,12 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="/src/Js/script.js" defer></script>
+    <?php require 'src/includes/head.php' ?>
 </head>
 
 <body>
@@ -16,20 +11,20 @@
         <?php require 'src/includes/header.php'  ?>
     </header>
 
-    <main #indexMainPage>
+    <main id="indexMainPage">
                             <!-- Hero page -->
         <section class="Hero" id="mainPageHero">
 
             <div class="HeroInfos">
-                <h1 class="heroTitle">Jackson <span>Camille</span></h1>
-                <div class="ligne"></div>
-                <h2 class="heroSousTitre">ETUDIANT EN GENIE INFORMATIQUE A L'ISSTM - MAHAJANGA</h2>
-                <h2 class="fonction">Développeur & Designer</h2>
-                <p class="heroDescription">
+                <h1 class="heroTitle reveal reveal-left">Jackson <span>Camille</span></h1>
+                <div class="ligne reveal reveal-left delay-1"></div>
+                <h2 class="heroSousTitre reveal reveal-left delay-2">ETUDIANT EN GENIE INFORMATIQUE A L'ISSTM - MAHAJANGA</h2>
+                <h2 class="fonction reveal reveal-left delay-3">Développeur & Designer</h2>
+                <p class="heroDescription reveal reveal-left delay-4">
                     "Transformons vos idées en réalité"
                 </p>
 
-                <div class="CtaContenair">
+                <div class="CtaContenair reveal reveal-left delay-5">
                     <!-- Boutton vers le contact -->
                     <a href="contact.php" class="bttn" id="MeCOntacterBttn">
                         <span>
@@ -56,7 +51,7 @@
 
             </div>
 
-            <div class="profilContenaire">
+            <div class="profilContenaire reveal reveal-right delay-2">
                 <img id="profilHero" src="src/Image/profil.webp" alt="jacksoncamilleprofil">
                 <!-- Cercle de décoration -->
                 <div class="circle Big"></div>
@@ -67,22 +62,22 @@
 
         </section>
 
-        <section class="aboutServices" id="skillsContenaire">
+        <section class="aboutServices contenaire" id="skillsContenaire">
 
             <div class="about">
-                <h2 class="title">A PROPOS</h2>
-                <h3 class="sousTitre">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
-                <p class="aboutDescription">Designer et développeur freelance basé à Madagascar. <br>
+                <h2 class="title reveal reveal-left">A PROPOS</h2>
+                <h3 class="sousTitre reveal reveal-left delay-1">Passioné par le développement, le calcul scientifique et <br> les nouvelles technologies. </h3>
+                <p class="aboutDescription reveal reveal-left delay-2">Designer et développeur freelance basé à Madagascar. <br>
                     J’accompagne les marques et les entrepreneurs dans la création de sites et d’applications modernes, utiles et centrés sur l’utilisateur.</p>
-                <a href="/about.php" class="bttn more">Lire plus</a>
+                <a href="/about.php" class="bttn more reveal reveal-left delay-3">Lire plus</a>
             </div>
 
             <div class="services">
-                <h2 class="title "> SERVICES </h2>
+                <h2 class="title reveal reveal-zoom"> SERVICES </h2>
 
                 <div class="cardsContenaire">
 
-                    <div class="servicesCard shadowed">
+                    <div class="servicesCard shadowed reveal reveal-zoom delay-1">
                         <img src="/src/icon/outils-dedition.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DESIGN</h4>
                         <p class="service-description description">
@@ -93,7 +88,7 @@
                         <a href="/services.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard  shadowed" id="devcards">
+                    <div class="servicesCard  shadowed reveal reveal-zoom delay-2" id="devcards">
                         <img src="/src/icon/code.png" alt="icone " class="shadowed">
                         <h4 class="service-title">DEVELOPPEMENT WEB</h4>
                         <p class="service-description description">
@@ -105,7 +100,7 @@
                         <a href="/services.php" class="bttn serviceRedirectio">En savoir plus</a>
                     </div>
 
-                    <div class="servicesCard shadowed">
+                    <div class="servicesCard shadowed reveal reveal-zoom delay-3">
                         <img src="/src/icon/server.png" alt="icone " class="shadowed">
                         <h4 class="service-title">BASE DE DONNEES</h4>
                         <p class="service-description description">
@@ -122,12 +117,12 @@
 
         </section>
 
-        <section class="skillsContenaire ">
+        <section class="skillsContenaire">
             
             <div class="NostackSkills">
 
-                <h2 class="title">COMPETENCES</h2>
-                <div class="competencesWrap">
+                <h2 class="title reveal reveal-left">COMPETENCES</h2>
+                <div class="competencesWrap reveal reveal-zoom delay-1">
 
                     <div class="competences">
                         <h4 class="competencesSubTitles">GRAPHISME</h4>
@@ -157,14 +152,14 @@
                         </ol>
                     </div>
                 </div>
-                <p class="remark">(React et Laravel en cours d'apprentissage)</p>
+                <p class="remark reveal reveal-zoom delay-2">(React et Laravel en cours d'apprentissage)</p>
             </div>
 
 
             <div class="stack">
                 <div class="codeStack">
-                    <h2 class="title">OUTILS MAÎTRISER</h2>
-                    <ul class="stackIconeContenaire">
+                    <h2 class="title reveal reveal-right">OUTILS MAÎTRISER</h2>
+                    <ul class="stackIconeContenaire reveal reveal-zoom delay-1">
                         <li class="StackIcone">
                             <img src="/src/icon/photoshop.png" alt="photoshopIcone">
                         </li>
@@ -185,8 +180,8 @@
                 </div>
 
                 <div class="OSStack">
-                    <h2 class="title">OS</h2>
-                    <ul class="stackIconeContenaire">
+                    <h2 class="title reveal reveal-right delay-1">OS</h2>
+                    <ul class="stackIconeContenaire reveal reveal-zoom delay-2">
                         <li class="StackIcone">
                             <img src="/src/icon/linux.png" alt="">
                         </li>
@@ -199,80 +194,8 @@
             </div>
 
         </section>
-
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="reveal" id="titleContenanaire">
-                <h2 style="color: white;" class="title" >CONTACTEZ-MOI</h2>
-                <div class="line" style="background: #d4b95c"></div>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info reveal">
-                    <h3>Discutons de Votre Projet</h3>
-                    <p>
-                        Je suis disponible pour un stage ou des collaborations. N'hésitez pas à me contacter 
-                        pour discuter de vos projets ou opportunités.
-                    </p>
-                    
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong>Email</strong>
-                            <p>jacksoncamilledoringa@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong>Téléphone</strong>
-                            <p>+231 37 61 25 003</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <strong>Localisation</strong>
-                            <p>Antananarivo, Madagascar</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <i class="fas fa-university"></i>
-                        <div>
-                            <strong>Formation</strong>
-                            <p>ISSTM - Génie Informatique</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact-form reveal">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Nom</label>
-                            <input type="text" id="name" placeholder="Votre nom" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="votre@email.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Sujet</label>
-                            <input type="text" id="subject" placeholder="Sujet du message" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="4" placeholder="Votre message..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit bttn">
-                            <i class="fas fa-paper-plane "></i> Envoyer le Message
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
+        <!-- Inclusion du contac -->
+        <?php require 'src/includes/contact.php' ?>
 
     </main>
 

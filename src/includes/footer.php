@@ -1,24 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <footer>
         <div class="SocialMediaContenair">
+            <a href="#" class="socialLink" aria-label="GitHub">
                 <img src="/src/icon/github.webp" alt="githubIcon">
+            </a>
+            <a href="#" class="socialLink" aria-label="LinkedIn">
                 <img src="/src/icon/LinkedIn_icon.svg.png" alt="LinkedInIcon">
+            </a>
         </div>
         <div class="copyRight">
-            <p>Jackson Camille , Juillet 2026 </p> 
+            <p>Jackson Camille , Juillet 2026 </p>
             <p>Portfolio V0.1</p>
         </div>
-    </footer>
-</body>
 <style>
     footer{
-        /* height: 10vh; */
         background: #000000;
         display: flex;
         flex-direction:column;
@@ -41,5 +34,12 @@
         border: none;
         border-radius: 20px;
     }
+
+    .socialLink img {
+        transition: var(--transition);
+    }
+
+    .socialLink:hover img {
+        transform: translateY(-5px);
+    }
 </style>
-</html>
