@@ -1,5 +1,5 @@
         <div class="SocialMediaContenair">
-            <a href="#" class="socialLink" aria-label="GitHub">
+            <a href="https://github.com/FoxIngenious" class="socialLink" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                 <img src="/src/icon/github.webp" alt="githubIcon">
             </a>
             <a href="#" class="socialLink" aria-label="LinkedIn">
