@@ -34,8 +34,7 @@
                         et performant.
                     </p>
                     <p>
-                        Toujours curieux, j'apprends en continu : React et Laravel sont actuellement en cours
-                        d'apprentissage.
+                        Toujours curieux, j'apprends en continu : Vue est actuellement en cour  d'apprentissage.
                     </p>
                     <a href="/src/cv.pdf" class="bttn" download="Jackson_Camille_CV.pdf">
                         <i class="fas fa-download"></i>
