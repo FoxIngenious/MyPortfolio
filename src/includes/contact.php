@@ -32,7 +32,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <strong>Localisation</strong>
-                            <p>Antananarivo, Madagascar</p>
+                            <p>Mahajanga, Madagascar</p>
                         </div>
                     </div>
 
