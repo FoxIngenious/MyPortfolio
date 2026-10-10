@@ -1,15 +1,4 @@
-<?php
-$page_actuelle = basename($_SERVER['PHP_SELF']);
-$page_name = pathinfo($page_actuelle, PATHINFO_FILENAME);
-$page_titles = [
-    'index' => 'Acceuil',
-    'about' => 'A propos',
-    'services' => 'Services',
-    'contact' => 'Contact',
-    '404' => 'Page introuvable',
-];
-$page_title = $page_titles[$page_name] ?? ucfirst($page_name);
-?>
+<?php require_once __DIR__ . '/config.php'; ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>JacksonCamille | <?= $page_title ?></title>

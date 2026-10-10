@@ -1,15 +1,9 @@
 <?php
 http_response_code(404);
+$show_header = false;
+$show_footer = false;
+require 'src/includes/page-start.php';
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <?php require 'src/includes/head.php' ?>
-</head>
-
-<body>
-    <main>
         <section class="notfound-page reveal">
             <h1 class="notfound-code">404</h1>
             <h2 class="title">PAGE INTROUVABLE</h2>
@@ -19,7 +13,4 @@ http_response_code(404);
                 RETOUR A L'ACCUEIL
             </a>
         </section>
-    </main>
-</body>
-
-</html>
+<?php require 'src/includes/page-end.php'; ?>
