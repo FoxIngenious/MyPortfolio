@@ -13,7 +13,6 @@
             <div class="services-page__head">
                 <span class="eyebrow">Mes services</span>
                 <h1>Des solutions concrètes pour vos besoins numériques</h1>
-                <p>Survolez une catégorie pour découvrir le détail de ce que je propose.</p>
             </div>
 
             <div class="showcase">
