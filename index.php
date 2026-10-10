@@ -26,7 +26,7 @@
 
                 <div class="CtaContenair reveal reveal-left delay-5">
                     <!-- Boutton vers le contact -->
-                    <a href="contact.php" class="bttn" id="MeCOntacterBttn">
+                    <a href="#contact" class="bttn" id="MeCOntacterBttn">
                         <span>
                             <img id="envoyericon" class="icon" src="/src/icon/envoyer.png" alt="envoyer_icon">
                         </span>
