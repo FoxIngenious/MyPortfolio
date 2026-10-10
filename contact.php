@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <?php require 'src/includes/head.php' ?>
-</head>
-
-<body>
-    <header>
-        <?php require 'src/includes/header.php' ?>
-    </header>
-
-    <main>
+<?php require 'src/includes/page-start.php'; ?>
         <section class="contact-page reveal">
             <h1 >
                 Vous avez un projet, une question ou une opportunité de stage ?
@@ -18,11 +6,4 @@
         </section>
 
         <?php require 'src/includes/contact.php' ?>
-    </main>
-
-    <footer>
-        <?php require 'src/includes/footer.php' ?>
-    </footer>
-</body>
-
-</html>
+<?php require 'src/includes/page-end.php'; ?>

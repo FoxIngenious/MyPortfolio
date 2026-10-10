@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <?php require 'src/includes/head.php' ?>
-</head>
-
-<body>
-    <header>
-        <!-- inclusion du header -->
-        <?php require 'src/includes/header.php'  ?>
-    </header>
-
-    <main id="indexMainPage">
+<?php $main_id = 'indexMainPage'; require 'src/includes/page-start.php'; ?>
                             <!-- Hero page -->
         <section class="Hero" id="mainPageHero">
 
@@ -197,14 +184,4 @@
         <!-- Inclusion du contac -->
         <?php require 'src/includes/contact.php' ?>
 
-    </main>
-
-    <footer>
-        <!-- Inclusio du footer -->
-        <?php require 'src/includes/footer.php' ?>
-    </footer>
-
-
-</body>
-
-</html>
+<?php require 'src/includes/page-end.php'; ?>

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <?php require 'src/includes/head.php' ?>
-</head>
-
-<body>
-    <header>
-        <?php require 'src/includes/header.php' ?>
-    </header>
-
-    <main>
+<?php require 'src/includes/page-start.php'; ?>
         <section class="about-page">
             <div class="about-hero reveal">
                 <h1 class="title">A PROPOS DE MOI</h1>
@@ -66,11 +54,4 @@
         </section>
 
         <?php require 'src/includes/contact.php' ?>
-    </main>
-
-    <footer>
-        <?php require 'src/includes/footer.php' ?>
-    </footer>
-</body>
-
-</html>
+<?php require 'src/includes/page-end.php'; ?>
