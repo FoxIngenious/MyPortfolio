@@ -19,6 +19,36 @@ if (navToggle && menu) {
     });
 }
 
+/* Page Services : sélection carte / panneau détail */
+const servicesShowcase = document.querySelector('.showcase');
+
+if (servicesShowcase) {
+    const serviceItems = Array.prototype.slice.call(servicesShowcase.querySelectorAll('.service'));
+    const mobile = window.matchMedia('(max-width: 860px)');
+
+    function activateService(target, toggle) {
+        const wasActive = target.classList.contains('is-active');
+        serviceItems.forEach((item) => {
+            item.classList.remove('is-active');
+            item.querySelector('.card').setAttribute('aria-expanded', 'false');
+        });
+        if (toggle && wasActive) return;
+        target.classList.add('is-active');
+        target.querySelector('.card').setAttribute('aria-expanded', 'true');
+    }
+
+    serviceItems.forEach((item) => {
+        const card = item.querySelector('.card');
+        card.addEventListener('mouseenter', () => { if (!mobile.matches) activateService(item, false); });
+        card.addEventListener('focus', () => { if (!mobile.matches) activateService(item, false); });
+        card.addEventListener('click', () => { activateService(item, mobile.matches); });
+    });
+
+    mobile.addEventListener('change', () => {
+        if (!mobile.matches && !servicesShowcase.querySelector('.service.is-active')) activateService(serviceItems[0], false);
+    });
+}
+
 /* Hover des cartes services */
 const cards = document.querySelectorAll('.servicesCard');
 
