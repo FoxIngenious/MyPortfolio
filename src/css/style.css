@@ -1069,9 +1069,9 @@ ul#menu {
    À partir de 1280px : on remet les services à côté, avec 3 cartes sur une ligne. */
 @media (min-width: 1280px) {
     .aboutServices {
-        grid-template-columns: minmax(280px, 1fr) 2.2fr;
+        grid-template-columns: minmax(280px, 1fr) 2fr;
         align-items: start;
-        gap: clamp(2rem, 4vw, 4rem);
+        gap: clamp(2.5rem, 5vw, 5rem);
     }
 
     .about {
@@ -1093,7 +1093,7 @@ ul#menu {
    et plus les cartes se resserrent : le poids visuel se répartit mieux. */
 @media (min-width: 1440px) {
     .aboutServices {
-        grid-template-columns: minmax(320px, 1fr) 1.7fr;
+        grid-template-columns: minmax(320px, 1fr) 1.6fr;
     }
 
     .cardsContenaire {
@@ -1118,12 +1118,12 @@ ul#menu {
    plus il est grand, plus les cartes sont larges (1.5fr = étroites, 2fr = larges). */
 @media (min-width: 1600px) {
     :root {
-        --services-ratio: 1.9fr;
+        --services-ratio: 1.75fr;
     }
 
     .aboutServices {
         grid-template-columns: 1fr var(--services-ratio);
-        gap: 3rem;
+        gap: 4rem;
     }
 
     .cardsContenaire {
@@ -1136,5 +1136,23 @@ ul#menu {
     section {
         padding-left: max(8vw, calc((100vw - 1400px) / 2));
         padding-right: max(8vw, calc((100vw - 1400px) / 2));
+    }
+}
+
+/* =====================================================================
+   SERVICES — PLEINE LARGEUR À DROITE (grands écrans uniquement)
+   Les cartes Services annulent la marge droite de la section pour
+   disposer de plus de place, en gardant ~24px de respiration au bord.
+   N'affecte que >= 1024px : mobile et tablette restent inchangés.
+   ===================================================================== */
+@media (min-width: 1024px) {
+    .aboutServices .cardsContenaire {
+        width: calc(100% + 8vw - 24px);
+    }
+}
+
+@media (min-width: 1600px) {
+    .aboutServices .cardsContenaire {
+        width: calc(100% + max(8vw, (100vw - 1400px) / 2) - 24px);
     }
 }
